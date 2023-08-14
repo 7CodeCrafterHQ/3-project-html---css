@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+nav{
+    width: 100%;
+    height: 100px;
+ 
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+     padding: 0px 50px;
+}
+nav h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}
+nav h1 span{
+    color: brown;
+   font-family: cursive; 
+}
+nav #nav_part2 {
+   display: flex;
+   gap: 70px;
+   align-items: center;
+}
+#nav_part2 a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#nav_part2 button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#nav_part2 button:hover{
+    font-family: cursive;
+}
+#cnt{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+
+}
+#cnt_part1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 0px 50px;
+}
+#cnt_part1 h1{
+    font-size: 80px;
+    font-family: sans-serif;
+}
+#cnt_part1 h1 span{
+    color:  brown;
+    font-family: cursive;
+}
+#cnt_part1 p{
+    font-size: 20px;
+}
+#cnt_part1 button{
+    padding: 13px 30px;
+    font-size: 20px;
+    font-family: cursive;
+    background:linear-gradient(red ,blue);
+    color: white;
+    margin-left: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+#cnt_part1 button:hover{
+    box-shadow: 0px 20px 10px black ;
+}
+#cnt_part2{
+width: 50%;
+height: 100%;
+background-image: url(https://assets.website-files.com/626f5d0ae6c15cea8c2dd5dd/633d6ed29270cc0b68da838b_drawkit-tb-last.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
